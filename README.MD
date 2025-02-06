@@ -102,4 +102,30 @@
   - Assim, deixo genérico;
   - Eu mesmo vou acessar as informações
 
+## DDD
+- Vai fazer sentido para casos de complexidade;
+- Usar ele para um CRUD pode ser um tiro no pé;
+
 ## Sistemas Distribuídos
+- Cada contexto do meu mapa de contexto pode ser separado em um projeto a parte;
+
+- Vou ter um universo diferente sobre outros problemas;
+  - Vou ter comunicação sendo feita de maneira diferente;
+  - Sem ser pelo pacote shared;
+
+- Posso usar mensageria;
+  - Vou ter outros problemas;
+  - Mas não vou ter acoplamento;
+
+### Camada Anticorrupção
+- Pode ser a mensageria;
+- Posso ter uma camada mesmo para fazer um adapter;
+
+## Leituras
+- Domain Driven Design with Spring Boot;
+
+- O livro que originou o termo DDD: https://www.amazon.com.br/Domain-Driven-Design-Eric-Evans/dp/8550800651/
+
+- Uma releitura com uma linguagem um pouco mais palatável: https://www.amazon.com.br/Implementando-Domain-Driven-design-Vernon/dp/8576089521/
+
+- Um livro prático sobre implementação em Java com SpringBoot de conceitos do DDD: https://www.amazon.com.br/Domain-Driven-Design-Spring-Boot-ebook/dp/B07K5W7CTZ
